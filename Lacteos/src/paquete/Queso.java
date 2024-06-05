@@ -2,7 +2,7 @@ package paquete;
 
 public class Queso {
 	/* Indica el tipo de leche con el que se ha fabricado el queso*/
-	private String tipo_leche;
+	private String tipo;
 	/* Indica la cantidad en milimetros utilizada para la fabricacion del queso*/
 	private int cantidad_leche;
 	/* Indica el peso en gramos del queso*/
@@ -13,7 +13,7 @@ public class Queso {
 	}
 	
 	public Queso(String tipo_leche, int cantidad_leche, double peso) {
-		this.setTipo_leche(tipo_leche);
+		this.setTipo(tipo_leche);
 		this.setCantidad_leche(cantidad_leche);
 		this.setPeso(peso);
 	}
@@ -27,22 +27,22 @@ public class Queso {
 
 	public void imprimir_detalle() {
 		System.out.println("Peso: " + this.peso);
-		System.out.println("Tipo de leche: " + this.tipo_leche);
+		System.out.println("Tipo de leche: " + this.tipo);
 		System.out.println("Cantidad de leche: " + this.cantidad_leche);
 	}
 	
 	/**
 	 * @return the tipo_leche
 	 */
-	public String getTipo_leche() {
-		return tipo_leche;
+	public String getTipo() {
+		return tipo;
 	}
 
 	/**
 	 * @param tipo_leche the tipo_leche to set
 	 */
-	public void setTipo_leche(String tipo_leche) {
-		this.tipo_leche = tipo_leche;
+	public void setTipo(String tipo_leche) {
+		this.tipo = tipo_leche;
 	}
 
 	/**
