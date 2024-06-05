@@ -18,7 +18,7 @@ public class Queso {
 		this.setPeso(peso);
 	}
 
-	public void imprimir() {
+	public void imprimir_cabecera() {
 		System.out.println("QUESOS ENTREPINARES");
 		System.out.println("Registro Sanitario No 52/38751");
 		System.out.println("Para consultar el lote del producto revise la etiqueta");
